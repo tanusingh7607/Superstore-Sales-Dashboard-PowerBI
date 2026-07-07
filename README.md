@@ -1,73 +1,86 @@
-# 📊 Superstore Sales Dashboard | Power BI
+# Superstore Sales Dashboard | Power BI
 
 ## Overview
 
-This project is an interactive sales dashboard built in Power BI using the Superstore dataset.
+This project is an interactive sales dashboard created in Power BI using the Superstore dataset.
 
-The dashboard provides a clear view of sales, profit, customer segments, product categories, and regional performance. It includes dynamic insights, interactive filters, custom tooltips, and business-focused visualizations to help users explore the data and make better decisions.
-
----
-
-## Dashboard Preview
-
-> *(Add your dashboard screenshot here)*
-
-![Dashboard Preview](Images/Dashboard.png)
+The dashboard is designed to analyze sales performance from different business perspectives such as products, customers, regions, profit and monthly trends. It allows users to explore the data through interactive filters, dynamic titles, custom tooltips and business insight cards.
 
 ---
 
-## Business Problem
+## Problem Statement
 
-Businesses generate large amounts of sales data every day, but it is often difficult to identify which products, regions, and customer segments contribute the most to revenue and profit.
+Sales data contains valuable information, but raw data alone does not help decision-making.
 
-This dashboard brings all important business metrics into one place, making it easier to monitor performance and identify growth opportunities.
+The objective of this dashboard is to convert raw sales data into meaningful business insights that help answer questions such as:
 
----
-
-## Project Objectives
-
-- Analyze overall sales and profit performance
-- Identify top-performing product categories
-- Compare regional sales performance
-- Track monthly sales trends
-- Analyze customer segments
-- Create interactive business insights using DAX
-- Build a clean and user-friendly dashboard
+- Which product category generates the highest sales?
+- Which region performs the best?
+- Which month records the highest sales?
+- Which customer segment contributes the most?
+- How does discount affect profit?
+- Where should the business focus for future growth?
 
 ---
 
 ## Dashboard Features
 
-- Interactive slicers
-- KPI Cards
-- Dynamic Titles
-- Dynamic Insight Cards
+- Interactive KPI Cards
+- Dynamic Business Insight Cards
+- Dynamic Chart Titles
+- Interactive Slicers
 - Custom Tooltip Page
 - Sales Trend Analysis
-- Category-wise Performance
-- Region-wise Performance
-- Segment Analysis
+- Category-wise Analysis
+- Segment-wise Analysis
+- Region-wise Analysis
 - Discount Analysis
-- Interactive Visualizations
+- Clean Dark Theme Dashboard
 
 ---
 
-## Key Performance Indicators (KPIs)
+## Key Performance Indicators
+
+The dashboard tracks the following KPIs:
 
 - Total Sales
 - Total Profit
 - Total Orders
 - Total Quantity
+- Profit Margin
+- Average Order Value
 
 ---
 
 ## Business Insights
 
-- Technology is the highest revenue-generating category.
-- East region delivers the strongest sales performance.
-- November records the highest sales among all months.
-- Customer segments contribute differently to total revenue.
-- Dynamic insight cards automatically update based on report filters.
+The dashboard automatically updates insights based on the selected filters.
+
+Current insights include:
+
+- Revenue Leader
+- Profit Leader
+- Regional Leader
+- Peak Sales Month
+- Business Focus
+
+These insight cards are generated dynamically using DAX.
+
+---
+
+## Visuals Included
+
+The dashboard contains visualizations for:
+
+- Monthly Sales Trend
+- Sales by Category
+- Sales by Customer Segment
+- Profit by Category
+- Sales by Region
+- Discount vs Profit Analysis
+- Top Products
+- KPI Cards
+- Business Insight Cards
 
 ---
 
@@ -80,61 +93,70 @@ This dashboard brings all important business metrics into one place, making it e
 
 ---
 
+## DAX Concepts Used
+
+- CALCULATE()
+- SUM()
+- SUMMARIZE()
+- TOPN()
+- MAXX()
+- DIVIDE()
+- FORMAT()
+- Variables (VAR)
+- Dynamic Text
+- UNICHAR()
+
+---
+
+## Power Query Work
+
+The dataset was prepared before building the dashboard.
+
+Steps included:
+
+- Data type correction
+- Date formatting
+- Duplicate removal
+- Null value verification
+- Creating required date fields
+- Loading cleaned data into the model
+
+---
+
 ## Skills Demonstrated
+
+This project demonstrates practical Power BI skills including:
 
 - Data Cleaning
 - Data Transformation
 - Data Modeling
-- DAX Measures
+- DAX
 - Interactive Dashboard Design
-- Data Visualization
 - Business Analysis
+- Data Visualization
+- Dynamic Insights
 - Custom Tooltips
-- Dynamic Titles
-- Dynamic Business Insights
-
----
-
-## Folder Structure
-
-```
-Superstore-Sales-Dashboard-PowerBI
-│
-├── Dashboard
-│   └── Superstore Sales Dashboard.pbix
-│
-├── Dataset
-│   └── Sample - Superstore.xlsx
-│
-├── Images
-│   └── Dashboard.png
-│
-└── README.md
-```
-
----
-
-## Files Included
-
-- Power BI Dashboard (.pbix)
-- Superstore Dataset
-- Dashboard Screenshot
-- README Documentation
+- Dashboard Formatting
 
 ---
 
 ## Future Improvements
 
+Possible future enhancements include:
+
 - Sales Forecasting
 - Customer Retention Analysis
-- Mobile Dashboard Layout
 - SQL Database Integration
+- Mobile Layout
 - Row-Level Security (RLS)
 
 ---
 
-## Connect
+## Author
 
-If you have any suggestions or feedback, feel free to connect with me on LinkedIn.
+**Tanu Singh**
 
-**LinkedIn:** www.linkedin.com/in/tanu-singh-76894049t
+
+
+GitHub:
+github.com/tanusingh7607
